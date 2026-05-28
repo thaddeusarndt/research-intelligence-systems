@@ -4,6 +4,8 @@ Clean-room public-data research workflows for content gaps, market monitoring, n
 
 This repository is a portfolio-safe demo for recruiter and collaborator review. It shows how I structure research automation systems while keeping private strategies, accounts, credentials, and live execution paths out of public code.
 
+![Research Intelligence Systems flow](docs/assets/research-intelligence-flow.svg)
+
 ## What this demonstrates
 
 - transparent weighted scoring over public-style signals
