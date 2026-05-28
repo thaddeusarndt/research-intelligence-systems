@@ -1,0 +1,31 @@
+{
+  "title": "Synthetic Content Gap Report",
+  "threshold": 0.75,
+  "weights": {
+    "momentum": 0.35,
+    "novelty": 0.25,
+    "fit": 0.4
+  },
+  "items": [
+    {
+      "title": "AI music workflow landing page",
+      "summary": "Synthetic opportunity based on public-style creator/tooling interest.",
+      "signals": {
+        "momentum": 0.78,
+        "novelty": 0.63,
+        "fit": 0.95
+      },
+      "risk_flags": []
+    },
+    {
+      "title": "Outdated portfolio link cleanup",
+      "summary": "Synthetic cleanup item for making recruiter surfaces more consistent.",
+      "signals": {
+        "momentum": 0.42,
+        "novelty": 0.3,
+        "fit": 0.88
+      },
+      "risk_flags": []
+    }
+  ]
+}

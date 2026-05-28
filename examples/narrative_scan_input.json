@@ -1,0 +1,34 @@
+{
+  "title": "Synthetic Narrative Scan Report",
+  "threshold": 0.75,
+  "weights": {
+    "momentum": 0.45,
+    "novelty": 0.35,
+    "fit": 0.2
+  },
+  "items": [
+    {
+      "title": "Approval-gated agent workflows",
+      "summary": "Synthetic narrative around safer human-in-loop automation.",
+      "signals": {
+        "momentum": 0.86,
+        "novelty": 0.74,
+        "fit": 0.9
+      },
+      "risk_flags": []
+    },
+    {
+      "title": "Private beta growth hack",
+      "summary": "Synthetic item blocked because it implies account mutation.",
+      "signals": {
+        "momentum": 0.9,
+        "novelty": 0.8,
+        "fit": 0.7
+      },
+      "risk_flags": [
+        "requires_login",
+        "external_action"
+      ]
+    }
+  ]
+}

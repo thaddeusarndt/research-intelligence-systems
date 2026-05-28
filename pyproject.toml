@@ -1,0 +1,10 @@
+[project]
+name = "research-intelligence-systems"
+version = "0.1.0"
+description = "Clean-room public-data research intelligence workflow demos with synthetic fixtures."
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

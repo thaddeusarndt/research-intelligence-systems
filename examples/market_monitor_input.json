@@ -1,0 +1,33 @@
+{
+  "title": "Synthetic Market Monitor Report",
+  "threshold": 0.75,
+  "weights": {
+    "momentum": 0.4,
+    "novelty": 0.2,
+    "fit": 0.4
+  },
+  "items": [
+    {
+      "title": "Public docs release watch",
+      "summary": "Synthetic public-source monitoring item.",
+      "signals": {
+        "momentum": 0.72,
+        "novelty": 0.6,
+        "fit": 0.82
+      },
+      "risk_flags": []
+    },
+    {
+      "title": "Rumor from private channel",
+      "summary": "Blocked synthetic item to model source-quality boundaries.",
+      "signals": {
+        "momentum": 0.92,
+        "novelty": 0.88,
+        "fit": 0.76
+      },
+      "risk_flags": [
+        "private_source"
+      ]
+    }
+  ]
+}
