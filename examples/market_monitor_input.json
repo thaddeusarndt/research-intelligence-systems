@@ -18,7 +18,7 @@
       "risk_flags": []
     },
     {
-      "title": "Rumor from private channel",
+      "title": "Unverified forum rumor",
       "summary": "Blocked synthetic item to model source-quality boundaries.",
       "signals": {
         "momentum": 0.92,

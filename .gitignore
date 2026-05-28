@@ -2,6 +2,8 @@
 __pycache__/
 .pytest_cache/
 *.pyc
+*.egg-info/
 .env
 .DS_Store
 reports/generated/*.tmp
+CODEX_PUBLIC_UPLOAD_AUDIT_PROMPT.md
